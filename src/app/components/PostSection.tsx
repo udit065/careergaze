@@ -2,7 +2,7 @@
 import React from 'react'
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography"
-import { styled} from '@mui/material/styles';
+import { styled } from '@mui/material/styles';
 import styles from '../styles/PostSection.module.css'
 const CustomizedButton = styled(Button)`
     color:black;
@@ -28,12 +28,12 @@ const CustomizedText = styled(Typography)`
 const PostSection = () => {
   return (
     <div className={styles.parent}>
-    <CustomizedButton><i className="fa-solid fa-plus"></i> Post</CustomizedButton>
-    <h1 style={{fontWeight:'bold',fontSize:'20px',width:'100px'}}>My Bowls</h1>
-    <CustomizedText>Career Advice for...</CustomizedText>
-    <CustomizedButton> <i className="fa-regular fa-circle"></i> Explore Bowls</CustomizedButton>
+      <CustomizedButton><i className="fa-solid fa-plus"></i> Post</CustomizedButton>
+      <h1 style={{ fontWeight: 'bold', fontSize: '20px', width: '100px' }}>My Bowls</h1>
+      <CustomizedText>Career Advice for...</CustomizedText>
+      <CustomizedButton> <i className="fa-regular fa-circle"></i> Explore Bowls</CustomizedButton>
     </div>
   )
 }
 
-export default PostSection
+export default PostSection;

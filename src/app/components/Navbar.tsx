@@ -1,14 +1,22 @@
-import React from 'react';
+"use client"
+import React, { useState } from 'react';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import SearchIcon from '@mui/icons-material/Search';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 
 const Navbar = () => {
+    // const [showMenu, setShowMenu] = useState(false);
+
+    // const toggleMenu = () => {
+    //     setShowMenu(!showMenu);
+    // };
+
+
     return (
 
         <div className='flex justify-around  items-center h-16 bg-red-100'>
-            <div className='font-bold text-xl'>CarrerGaze</div>
+            <div className='font-bold text-xl'>CareerGaze</div>
             <div className='flex justify-evenly w-[35rem] font-medium'>
                 <div>Community</div>
                 <div>Jobs</div>
@@ -24,6 +32,7 @@ const Navbar = () => {
                 <div><AccountCircleIcon /></div>
             </div>
         </div>
+
     )
 }
 
